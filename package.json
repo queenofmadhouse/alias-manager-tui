@@ -1,0 +1,56 @@
+{
+  "name": "alias-manager-tui",
+  "version": "1.0.0",
+  "description": "A terminal user interface application for managing ZSH aliases",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "alias-manager": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc -w",
+    "dev:start": "ts-node --esm src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "zsh",
+    "alias",
+    "terminal",
+    "tui",
+    "cli",
+    "command-line"
+  ],
+  "author": "Eva Kalachik <eva.kalachik@proton.me> (https://github.com/queenofmadhouse)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queenofmadhouse/alias-manager-tui.git"
+  },
+  "homepage": "https://github.com/queenofmadhouse/alias-manager-tui#readme",
+  "bugs": {
+    "url": "https://github.com/queenofmadhouse/alias-manager-tui/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "packageManager": "pnpm@10.12.4",
+  "dependencies": {
+    "ink": "^4.4.1",
+    "ink-text-input": "^5.0.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.38",
+    "typescript": "^5.3.2",
+    "ts-node": "^10.9.1"
+  }
+}
