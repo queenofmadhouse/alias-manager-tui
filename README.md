@@ -10,6 +10,14 @@ A terminal user interface application for managing ZSH aliases. This tool allows
 - Remove aliases you no longer need
 - Keyboard-driven interface for quick navigation
 
+## Screenshots
+
+![Main Interface](./screenshots/main-interface.png)
+
+![Adding an Alias](./screenshots/add-alias.png)
+
+![Editing an Alias](./screenshots/edit-alias.png)
+
 ## Installation
 
 ```bash
@@ -52,7 +60,7 @@ alias-manager
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/alias-manager.git
+git clone https://github.com/yourusername/alias-manager-tui.git
 cd alias-manager
 
 # Install dependencies

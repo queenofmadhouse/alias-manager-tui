@@ -1,6 +1,6 @@
 {
   "name": "alias-manager-tui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A terminal user interface application for managing ZSH aliases",
   "main": "dist/index.js",
   "type": "module",
@@ -34,6 +34,7 @@
     "url": "https://github.com/queenofmadhouse/alias-manager-tui/issues"
   },
   "files": [
+    "screenshots",
     "dist",
     "README.md",
     "LICENSE"
